@@ -1,0 +1,17 @@
+ctrl + l
+sftp://172.16.17.1
+
+
+
+
+19.238nagios服务端环境：
+cd /usr/local/nagios/libexec/hty_monitor_server
+./check_vm_mem 67c3083e-5f5d-45ab-beb7-63e43eda6fe7 172.16.19.236
+
+19.235恒天云环境  ssh  hty-compute1(19.223)
+                     hty-compute2(19.224)
+./get_vm_usage -t mem uuid号
+
+17.214nagios服务端环境：
+
+
